@@ -15,7 +15,7 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart:[], coupons:[])
-  # code here	  result = {}
+  	  result = {}
   # code here#
   cart.each do |food, info|
     coupons.each do |coupon|
